@@ -14,6 +14,10 @@ ul {
 
 h1 {
   flex-basis: calc(100% / 3);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #eb7200;
 }
 
 nav {
@@ -36,8 +40,10 @@ li {
   padding-right: 10%;
 }
 
-h1 {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
+.line {
+  border-left: 1px solid rgb(70, 69, 69);
+}
+
+body {
+  font-family: sans-serif;
 }
