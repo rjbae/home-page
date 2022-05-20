@@ -11,3 +11,33 @@ nav,
 ul {
   display: flex;
 }
+
+h1 {
+  flex-basis: calc(100% / 3);
+}
+
+nav {
+  flex-basis: calc(200% /3);
+}
+
+ul {
+  flex-basis: 50%;
+  list-style: none;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  padding-right: 10%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
