@@ -12,7 +12,7 @@ ul {
   display: flex;
 }
 
-h1 {
+.text {
   flex-basis: calc(100% / 3);
   text-align: center;
   margin-top: 0;
@@ -85,5 +85,20 @@ div.row-picture {
 }
 
 div.learn {
+  color: white;
   padding: 20%;
+  padding-top: 130px;
+  font-size: larger;
+  max-width: 30%;
+}
+
+.get-started {
+  color: white;
+  background-color: #eb7200;
+  border-radius: 20px;
+  padding: 2%;
+}
+
+.row-third {
+  margin-top: 2%;
 }
