@@ -34,6 +34,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 li {
@@ -46,4 +47,32 @@ li {
 
 body {
   font-family: sans-serif;
+}
+
+.search-box {
+  border: none;
+  width: 300px;
+  height: 30px;
+}
+
+.search {
+  width: calc(100% / 3);
+  margin: auto;
+  border: 3px solid rgb(242, 171, 40);
+  border-radius: 5%;
+  margin-top: 20px;
+}
+
+.search-button {
+  height: 40px;
+  width: 80px;
+  color: white;
+  background-color: #eb7200;
+  font-size: 18px;
+  font-weight: 800;
+  border-radius: 5%;
+  border-style: none;
+  margin-left: 35px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
